@@ -88,6 +88,78 @@
 ##### Điều kiện: ∀ h1, h2 thuộc HOADON
 ##### Nếu h1#h2 thì h1.[MAHD] # h2.[MAHD]  
 ##### Bảng tầm ảnh hưởng 
+<img width="233" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/053afc38-9888-4401-bcb4-b56c846fc84d">
+
+3. Mỗi khách hàng đều có một mã khách hàng để phân biệt
+Bối cảnh: KHACHHANG
+Điều kiện: ∀ x1, x2 thuộc KHACHHANG
+Nếu x1#x2 thì x1.[MAKH] # x2.[MAKH]  
+Bảng tầm ảnh hưởng 
+<img width="227" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/c42e4edf-452c-4432-8f55-a271810613e3">
+4. Mỗi sản phẩm đều có một mã sản phẩm để phân biệt
+Bối cảnh: SANPHAM
+Điều kiện: ∀ s1, s2 thuộc SANPHAM
+Nếu s1#s2 thì s1.[MASP] # s2.[MASP]  
+Bảng tầm ảnh hưởng 
+<img width="228" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/14bd051e-1dd1-41fb-aa2e-1f286bf0ae0b">
+5. Mỗi kho đều có một mã kho để phân biệt
+Bối cảnh: KHO
+Điều kiện: ∀ k1, k2 thuộc KHO
+Nếu k1#k2 thì k1.[MASP] # k2.[MAKHO]  
+Bảng tầm ảnh hưởng 
+<img width="229" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/b9b50345-b96b-41f9-b68f-b9fe3bec6158">
+6. Mỗi loại sản phẩm đều có một mã loại để phân biệt
+Bối cảnh: LOAISANPHAM
+Điều kiện: ∀ p1, p2 thuộc LOAISANPHAM
+Nếu p1#p2 thì p1.[MASP] # p2.[MASP]  
+Bảng tầm ảnh hưởng 
+<img width="226" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/afd5e79d-81b3-4543-bc43-0d7f6bea90b9">
+7. Mỗi nhà cung cấp đều có một mã nhà cung cấp để phân biệt
+Bối cảnh: NHACUNGCAP
+Điều kiện: ∀ c1, c2 thuộc NHACUNGCAP
+Nếu c1#c2 thì c1.[MANCC] # c2.[MANCC]  
+Bảng tầm ảnh hưởng 
+<img width="226" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/b42624e1-5882-443d-827c-9ed20de96e5d">
+8. Mỗi phiếu xuất kho đều có một mã để phân biệt
+Bối cảnh: PHIEUXUATKHO
+Điều kiện: ∀ x1, x2 thuộc PHIEUXUATKHO
+Nếu x1#x2 thì x1.[MAXK] # x2.[MAXK]  
+Bảng tầm ảnh hưởng 
+<img width="215" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/09d4a1a8-e019-42e3-8504-778c2399c8e5">
+9. Mỗi phiếu nhập kho đều có một mã để phân biệt.
+Bỗi cảnh: PHIEUNHAPKHO
+Điều kiện: ∀ n1, n2 thuộc PHIEUNHAPKHO 
+Nếu n1#n2 thì n1.[MANK] # n2.[MANK]  
+Bảng tầm ảnh hưởng 
+<img width="219" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/7b810d1b-0b68-44dc-a39e-6d7b9b2fb16a">
+10. Giới tính của nhân viên chỉ có thể là ‘0’ hoặc ‘1’
+Bối cảnh: NHANVIEN
+Điều kiện: ∀ n thuộc NHANVIEN: n.GIOITINH IN (0,1)
+Bảng tầm ảnh hưởng:
+<img width="226" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/1cadf058-2377-4f85-93b0-7d27419ff6f1">
+11. Số điện thoại khách hàng phải đủ 10 số: 
+Bối cảnh: KHACHHANG 
+Điều kiện: ∀ H1,H2 thuộc KHACHHANG 
+Nếu H1 # H2 thì H1.[SDT] # H2.[ SDT] 
+Bảng tầm ảnh hưởng: 
+<img width="234" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/eb0babaa-8504-4310-b4e1-7d4b779dc6a4">
+12. Đơn giá bán phải lớn hơn 0: 
+Bối cảnh: CTHOADON
+Điều kiện: ∀ dongiaban thuộc CTHOADON Thì 
+CTHOADON.[DONGIABAN >0]
+Bảng tầm ảnh hưởng: 
+<img width="222" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/d0c586e3-d1c1-4151-8149-a74d4ba3dc19">
+13. Đơn giá nhập kho phải lớn hơn 0
+Bối cảnh: CTPHIEUNHAPKHO
+Điều kiện: ∀ dongiank thuộc CTPHIEUNHAPKHO Thì CTPHIEUNHAPKHO.[DONGIANK >0] 
+Bảng tầm ảnh hưởng: 
+<img width="223" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/71f29a0e-4ba4-486b-a71f-503b6b75f9e8">
+14. Đơn giá xuất kho phải lớn hơn 0
+Bối cảnh: CTPHIEUXUATKHO
+Điều kiện: ∀ dongiaxk thuộc CTPHIEUXUATKHO Thì CTPHIEUXUATKHO.[DONGIAXK >0] 
+Bảng tầm ảnh hưởng: 
+<img width="224" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/9d24351e-05af-4ae9-8a35-91e22d2c9d30">
+
 
 
 
