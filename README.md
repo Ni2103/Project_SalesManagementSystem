@@ -1,4 +1,5 @@
 # Project_SalesManagementSystem
+## Source code: 
 ### Đề tài “Xây dựng hệ thống bán hàng tại GS25” hướng đến các mục tiêu cơ bản sau:
 -	Bài toán đặt ra với mục đích xây dựng hệ thống quản lý bán hàng có hiệu quả, tăng khả năng xử lý, đáp ứng yêu cầu thông tin đưa ra có tính chính xác, an toàn bảo mật, kịp thời và tiết kiệm được thời gian cho cửa hàng.
 -	Hệ thống hóa các kiến thức cơ sở làm nền tảng cho việc thực hiện đề tài.
