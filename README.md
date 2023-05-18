@@ -82,6 +82,7 @@
 #####  Nếu n1#n2 thì n1.[MANV] # n2.[MANV]  
 #####  Bảng tầm ảnh hưởng 
 <img width="239" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/b7300dd3-82e0-469d-8daa-bf9fc32e98e9">
+
 ####  2. Mỗi hóa đơn đều có một mã hóa đơn để phân biệt 
 ##### Bối cảnh: HOADON
 ##### Điều kiện: ∀ h1, h2 thuộc HOADON
