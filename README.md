@@ -67,9 +67,9 @@
 <img width="240" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/d089a384-49fc-436c-83a0-40581d23d556">
 <img width="239" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/8446597e-c576-4604-b021-540d13e990b2">
 <img width="248" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/816b9165-c407-4d5f-92d4-6bbbe28cdc52">
-### Mô tả các ràng buộc 
-#####  -	Ràng buộc Check ở giới tính nhân viên để phân biệt giới tính với kiểu dữ liệu BIT thì tương ứng giới tính nam là 0 và nữ là 1.
-##### -	Ràng buộc Check ở chức vụ nhân viên để phân biệt chức vụ của mỗi nhân viên cụ thể “QLT” tương ứng với “Quản lý trưởng”, “NV” tương ứng với “Nhân viên bán hàng”, “KT” tương ứng với “Kế toán”, “TK” tương ứng với “Thủ kho”.
+###Mô tả các ràng buộc 
+#####-	Ràng buộc Check ở giới tính nhân viên để phân biệt giới tính với kiểu dữ liệu BIT thì tương ứng giới tính nam là 0 và nữ là 1.
+#####-	Ràng buộc Check ở chức vụ nhân viên để phân biệt chức vụ của mỗi nhân viên cụ thể “QLT” tương ứng với “Quản lý trưởng”, “NV” tương ứng với “Nhân viên bán hàng”, “KT” tương ứng với “Kế toán”, “TK” tương ứng với “Thủ kho”.
 ##### -	Ràng buộc Default ở địa chỉ của Nhân viên đối với thông tin Nhân viên khi nhập mới chưa biết địa chỉ sẽ tự động mặc định là “Chưa có”.
 ##### -	Ràng buộc Default ở địa chỉ của Khách hàng đối với thông tin Khách hàng khi nhập mới chưa biết địa chỉ sẽ tự động mặc định là “Chưa có”.
 ##### -	Ràng buộc Default ở Mức khuyến mãi của Sản phẩm mặc định là 0, khi chương trình khuyến mãi được áp dụng vào 1 ngày cụ thể thì giá trị mức khuyến mãi sẽ được thay đổi bởi các thủ tục đưa vào.
