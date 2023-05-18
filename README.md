@@ -206,7 +206,7 @@
 ## Màn hình quản lý sản phẩm
 ![image](https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/3db21ce3-e4bf-444b-9827-97d22529df7e)
 
-##### 	Form có chức năng quản lý thông tin của sản phẩm.
+##### 		Form có chức năng quản lý thông tin của sản phẩm.
 #####   	Khi thực hiện các chức năng hiện có trên form đều có các thông báo xác nhận để các thao tác trên form được chính xác nhất.
 #####   	Các thành phần trên form quản lý sản phẩm bao gồm: 
 	                Thông tin sản phẩm: mã sản phẩm, tên sản phẩm, mức khuyến mãi, đơn giá, số lượng tồn, đơn vị tính, mã loại sản phẩm, mã nhà cung cấp, mã kho.
@@ -217,6 +217,17 @@
 ######  	Chức năng sửa: Thao tác này cho phép người dùng sửa lại dữ liệu sản phẩm đã tồn tại (ví dụ: sửa thông tin tên sản phẩm, mức khuyến mãi, …).
 ######  	Chức năng xóa: Khi cần xóa thông tin về một sản phẩm, người dùng sẽ chọn sản phẩm cần xóa và click vào button “Xóa”.
 ######  	Chức năng tìm kiếm: Chức năng cho phép người dùng hệ thống truy xuất thông tin của sản phẩm thông qua: mã sản phẩm, tên sản phẩm, mức khuyến mãi, đơn giá, số lượng tồn, đơn vị tính, mã loại sản phẩm, mã nhà cung cấp, mã kho. Dữ liệu trả về có thể là 1 hoặc nhiều trường dữ liệu tùy thuộc vào phương thức tìm kiếm.
+
+## Màn hình quản lý loại sản phẩm
+##### 	Form có chức năng quản lý thông tin của các loại sản phẩm.
+##### 	Khi thực hiện các chức năng hiện có trên form đều có các thông báo xác nhận để các thao tác trên form được chính xác nhất.
+##### 	Các thành phần trên form quản lý các loại sản phẩm bao gồm: 
+		Thông tin loại sản phẩm: mã loại sản phẩm, tên loại sản phẩm.
+		JTable (tableDSLoaiSP) để load dữ liệu từ CSDL lên form.
+		Các chức năng: thêm, lưu, sửa, xóa, tìm kiếm, làm mới.
+######		Chức năng thêm: Cho phép xóa trắng hết dữ liệu để nhập thông tin loại sản phẩm mới.
+######		Chức năng lưu: Khi người dùng đã nhập hết các dữ liệu về thông tin loại sản phẩm gồm: mã loại sản phẩm, tên loại sản phẩm thì click vào button “Lưu” nếu thành công thì sẽ xuất hiện hộp thoại thông báo “Đã thêm LSP thành công” và thông tin sau khi thêm sẽ được hệ thống cập nhật hiển thị lên tableDSLoaiSP.
+
 
 
 
