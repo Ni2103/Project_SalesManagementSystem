@@ -377,5 +377,8 @@
 #####		Form có chức năng thống kê doanh thu của cửa hàng.
 ![image](https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/5a7fea4f-405e-4ceb-b851-0549fd1a3013)
 
-
+###### ====== Hạn chế của Project =======
+1. Các tính năng còn cơ bản
+2. Một số sử lý ràng buộc chưa chặt chẽ
+3. Chưa tiếp xúc với môi trường thực tế ( chỉ nghiên cứu tìm hiểu qua internet nên còn nhiều thiếu sót trong khâu phân tích )
 
