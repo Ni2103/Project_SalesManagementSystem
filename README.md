@@ -187,7 +187,7 @@
 -	Sau khi đăng nhập với tài khoản là quản lý thành công giao diện chính của hệ thống sẽ xuất hiện.
 -	Form chính của hệ thống bao gồm các chức năng như quản lý sản phẩm, quản lý nhân viên, quản lý hóa đơn, quản lý kho, quản lý nhà cung cấp, quản lý tài khoản, quản lý doanh thu, quản lý thống kê, quản lý khách hàng, đăng xuất và thoát.
 
-## Form màn hình quản lý nhân viên
+## Màn hình quản lý nhân viên
 ![image](https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/b2d7d348-959a-4836-ab9d-39b5f86c8fe2)
 
 ##### 	Form có chức năng quản lý thông tin của nhân viên.
@@ -202,5 +202,22 @@
 ###### 	Chức năng xóa: Khi cần xóa thông tin về một nhân viên, người dùng sẽ chọn nhân viên cần xóa và click vào button “Xóa”.
 ###### 	Chức năng tìm kiếm: Chức năng cho phép người dùng hệ thống truy xuất thông tin của nhân viên thông qua: mã nhân viên, họ và tên, ngày sinh, giới tính, số điện thoại, địa chỉ, tài khoản, email, chức vụ. Dữ liệu trả về có thể là 1 hoặc nhiều trường dữ liệu tùy thuộc vào phương thức tìm kiếm.
 ###### 	Chức năng in danh sách: Khi nhấn vào button “In Danh Sach” thì chương trình sẽ in ra danh sách toàn bộ nhân viên của cửa hàng. Tại đây có thể xuất ra file PDF để lưu về máy tính.
+
+## Màn hình quản lý sản phẩm
+![image](https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/3db21ce3-e4bf-444b-9827-97d22529df7e)
+
+##### 	Form có chức năng quản lý thông tin của sản phẩm.
+#####   	Khi thực hiện các chức năng hiện có trên form đều có các thông báo xác nhận để các thao tác trên form được chính xác nhất.
+#####   	Các thành phần trên form quản lý sản phẩm bao gồm: 
+	                Thông tin sản phẩm: mã sản phẩm, tên sản phẩm, mức khuyến mãi, đơn giá, số lượng tồn, đơn vị tính, mã loại sản phẩm, mã nhà cung cấp, mã kho.
+	                JTable (tableSP) để load dữ liệu từ CSDL lên form.
+	                Các chức năng: thêm, lưu, sửa, xóa, tìm kiếm.
+######  	Chức năng thêm: Cho phép xóa trắng hết dữ liệu để nhập thông tin sản phẩm mới.
+######  	Chức năng lưu: Khi người dùng đã nhập hết các dữ liệu về thông tin sản phẩm cần thêm gồm: mã sản phẩm, tên sản phẩm, mức khuyến mãi, đơn giá, số lượng tồn, đơn vị tính, mã loại sản phẩm, mã nhà cung cấp, mã kho thì click vào button “Lưu” nếu thành công thì sẽ xuất hiện hộp thoại thông báo “Đã thêm SP mới thành công” và thông tin sau khi thêm sẽ được hệ thống cập nhật hiển thị lên tableSP.
+######  	Chức năng sửa: Thao tác này cho phép người dùng sửa lại dữ liệu sản phẩm đã tồn tại (ví dụ: sửa thông tin tên sản phẩm, mức khuyến mãi, …).
+######  	Chức năng xóa: Khi cần xóa thông tin về một sản phẩm, người dùng sẽ chọn sản phẩm cần xóa và click vào button “Xóa”.
+######  	Chức năng tìm kiếm: Chức năng cho phép người dùng hệ thống truy xuất thông tin của sản phẩm thông qua: mã sản phẩm, tên sản phẩm, mức khuyến mãi, đơn giá, số lượng tồn, đơn vị tính, mã loại sản phẩm, mã nhà cung cấp, mã kho. Dữ liệu trả về có thể là 1 hoặc nhiều trường dữ liệu tùy thuộc vào phương thức tìm kiếm.
+
+
 
 
