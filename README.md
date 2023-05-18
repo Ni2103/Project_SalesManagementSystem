@@ -228,7 +228,8 @@
 ######		Chức năng thêm: Cho phép xóa trắng hết dữ liệu để nhập thông tin loại sản phẩm mới.
 ######		Chức năng lưu: Khi người dùng đã nhập hết các dữ liệu về thông tin loại sản phẩm gồm: mã loại sản phẩm, tên loại sản phẩm thì click vào button “Lưu” nếu thành công thì sẽ xuất hiện hộp thoại thông báo “Đã thêm LSP thành công” và thông tin sau khi thêm sẽ được hệ thống cập nhật hiển thị lên tableDSLoaiSP.
 
-
-
-
+######		Chức năng sửa: Thao tác này cho phép người dùng sửa lại dữ liệu loại sản phẩm đã tồn tại (ví dụ: sửa thông tin tên loại sản phẩm, …).
+######		Chức năng xóa: Khi cần xóa thông tin về một loại sản phẩm, người dùng sẽ chọn loại sản phẩm cần xóa và click vào button “Xóa”.
+######		Chức năng tìm kiếm: Chức năng cho phép người dùng hệ thống truy xuất thông tin của loại sản phẩm thông qua: mã loại sản phẩm, tên loại sản phẩm. Dữ liệu trả về có thể là 1 hoặc nhiều trường dữ liệu tùy thuộc vào phương thức tìm kiếm.
+######		Chức năng làm mới: Sau khi thực hiện thay đổi trên form nhấn button “Làm mới” để refresh lại dữ liệu trên bảng.
 
