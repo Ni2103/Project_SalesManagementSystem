@@ -15,7 +15,7 @@
 ####  (1) Khách hàng sẽ đến cửa hàng GS25 ở bất kì chi nhánh nào khi có nhu cầu mua hàng. Khách hàng tìm kiếm sản phẩm cần mua, các sản phẩm được trưng bày theo nhóm sản phẩm, khách hàng có thể dễ dàng lựa chọn theo nhu cầu.
 ####  (2) Sau khi khách hàng đã tìm kiếm được các sản phẩm cần mua thì nhân viên bán hàng sẽ tiến hành xử lý yêu cầu mua hàng của khách hàng.
 ####  (3) Nhân viên nhập thông tin, số lượng các sản phẩm để hệ thống cập nhật số tiền thanh toán. Căn cứ vào thông tin, số lượng các sản phẩm cần mua của khách hàng thì tiến hành in hóa đơn.
-####  (4) Hóa đơn sẽ được chuyển đến cho khách hàng để tiến hành thanh toán hóa đơn. Khách hàng có 2 sự lựa chọn. Thanh toán trực tiếp bằng tiền mặt và thanh toán trực tuyến ####  qua ví điện tử hoặc thanh toán bằng thẻ ngân hàng.
+####  (4) Hóa đơn sẽ được chuyển đến cho khách hàng để tiến hành thanh toán hóa đơn. Khách hàng có 2 sự lựa chọn. Thanh toán trực tiếp bằng tiền mặt và thanh toán trực tuyến qua ví điện tử hoặc thanh toán bằng thẻ ngân hàng.
 ####  (5) Sau khi in hóa đơn số lượng tồn của sản phẩm sẽ được cập nhật lại và quản lý bởi người quản lý.
 ####  (6) Sau khi số lượng tồn được cập nhật, nếu các sản phẩm có số lượng tồn dưới mức cho phép thì người quản lý sẽ gửi yêu cầu bổ sung đến kho. 
 ####  (7) Nhân viên kho sẽ tiến hành kiểm tra đối chứng số lượng tồn kho. Nếu số lượng tồn đáp ứng đủ yêu cầu từ cửa hàng thì sẽ tiến hành xuất sản phẩm đến cửa hàng.
