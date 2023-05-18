@@ -48,3 +48,39 @@
 ##### -	Một phiếu nhập kho có thể lưu thông tin nhiều sản phẩm, một sản phẩm có thể được lưu thông tin trong nhiều phiếu nhập kho
 ##### -	Một phiếu xuất kho có thể lưu thông tin nhiều sản phẩm, một sản phẩm có thể được lưu thông tin trong nhiều phiếu xuất kho
 
+## Mô hình ERD dạng chuẩn 3
+![image](https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/4213ff13-50fa-4a4a-a6b2-db15b4e1362c)
+## Xây dựng cơ sở dữ liệu
+<img width="344" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/af931897-e920-48df-8b85-d921864b5900">
+<img width="249" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/b5be2668-5024-4d4d-9ada-5cfedbbdb2f5">
+<img width="238" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/6db46f18-6e7a-4dd6-965f-3bbe5e5f6cb8">
+<img width="245" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/977cfaf8-450e-4318-92bd-e25a51e78feb">
+<img width="245" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/308eee0c-f5e9-4606-b7c4-768ab806f78b">
+<img width="240" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/ec257b5f-1c19-4fda-8dc0-4cc306418473">
+<img width="242" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/39eed5e9-6808-4057-b205-e3eccc2b100f">
+<img width="236" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/c1d5b139-9d27-471a-bfe6-0f39bd3da4d1">
+<img width="242" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/014bd59d-b02d-4a36-910a-3c6ca8a6dd8f">
+<img width="226" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/cf8e78bd-74e1-4397-ab4e-1203e2c70205">
+<img width="235" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/34f0e5bb-7e62-4219-98e4-b7e307d7e89a">
+<img width="246" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/8ced99f5-3e33-46d9-abb5-7c079df0de48">
+<img width="234" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/f1fc6bec-5f1a-40a9-8597-82807fcbe917">
+<img width="240" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/d089a384-49fc-436c-83a0-40581d23d556">
+<img width="239" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/8446597e-c576-4604-b021-540d13e990b2">
+<img width="248" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/816b9165-c407-4d5f-92d4-6bbbe28cdc52">
+### Mô tả các ràng buộc 
+#####  -	Ràng buộc Check ở giới tính nhân viên để phân biệt giới tính với kiểu dữ liệu BIT thì tương ứng giới tính nam là 0 và nữ là 1.
+##### -	Ràng buộc Check ở chức vụ nhân viên để phân biệt chức vụ của mỗi nhân viên cụ thể “QLT” tương ứng với “Quản lý trưởng”, “NV” tương ứng với “Nhân viên bán hàng”, “KT” tương ứng với “Kế toán”, “TK” tương ứng với “Thủ kho”.
+##### -	Ràng buộc Default ở địa chỉ của Nhân viên đối với thông tin Nhân viên khi nhập mới chưa biết địa chỉ sẽ tự động mặc định là “Chưa có”.
+##### -	Ràng buộc Default ở địa chỉ của Khách hàng đối với thông tin Khách hàng khi nhập mới chưa biết địa chỉ sẽ tự động mặc định là “Chưa có”.
+##### -	Ràng buộc Default ở Mức khuyến mãi của Sản phẩm mặc định là 0, khi chương trình khuyến mãi được áp dụng vào 1 ngày cụ thể thì giá trị mức khuyến mãi sẽ được thay đổi bởi các thủ tục đưa vào.
+##### -	Ràng buộc Check ở Phương thức thanh toán của Hóa Đơn để kiểm tra hình thức thanh toán của Khách Hàng, cụ thể “TM” tương ứng với “Tiền mặt”, “CK” tương ưng với “Chuyển khoản”
+### Mô tả các ràng buộc toàn vẹn
+##### 1. Mỗi nhân viên đều có một mã nhân viên để phân biệt
+######  Bối cảnh: NHÂN VIÊN  
+######  Điều kiện: ∀ n1, n2 thuộc NHANVIEN  
+###### Nếu n1#n2 thì n1.[MANV] # n2.[MANV]  
+######  Bảng tầm ảnh hưởng 
+<img width="239" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/b7300dd3-82e0-469d-8daa-bf9fc32e98e9">
+
+
+
