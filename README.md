@@ -171,6 +171,37 @@
 ##### Bảng tầm ảnh hưởng: 
 <img width="224" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/9d24351e-05af-4ae9-8a35-91e22d2c9d30">
 
+# Sơ đồ Diagram
+![image](https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/b64c0335-1007-4d11-973b-67d1afa3eda5)
 
+# GIAO DIỆN CHƯƠNG TRÌNH
+## Form đăng nhập hệ thống
+![image](https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/c5137aa1-02d9-4e6f-8b7d-91dc446c5295)
+
+#####  -	Đây là giao diện khởi động của hệ thống. Muốn vào trong hệ thống chúng ta cần thông qua chức năng đăng nhập của giao diện này.
+#####  -	Cần sử dụng tài khoản và mật khẩu đã có sẵn để đăng nhập vào hệ thống.
+
+## Form màn hình chính
+![image](https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/770dc63a-e8e7-4c45-97fe-21c9d6fe8b34)
+
+-	Sau khi đăng nhập với tài khoản là quản lý thành công giao diện chính của hệ thống sẽ xuất hiện.
+-	Form chính của hệ thống bao gồm các chức năng như quản lý sản phẩm, quản lý nhân viên, quản lý hóa đơn, quản lý kho, quản lý nhà cung cấp, quản lý tài khoản, quản lý doanh thu, quản lý thống kê, quản lý khách hàng, đăng xuất và thoát.
+
+## Form màn hình quản lý nhân viên
+![image](https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/b2d7d348-959a-4836-ab9d-39b5f86c8fe2)
+
+##### 	Form có chức năng quản lý thông tin của nhân viên.
+##### 	Khi thực hiện các chức năng hiện có trên form đều có các thông báo xác nhận để các thao tác trên form được chính xác nhất.
+##### 	Các thành phần trên form quản lý nhân viên bao gồm: 
+        	Thông tin nhân viên: mã nhân viên, họ và tên, ngày sinh, giới tính, số điện thoại, địa chỉ, tài khoản, email, chức vụ.
+              +	JTable (tableNV) để load dữ liệu từ CSDL lên form.
+              +	Các chức năng: thêm, lưu, sửa, xóa, tìm kiếm, in danh sách 
+##### 	Chức năng thêm: Cho phép xóa trắng hết dữ liệu để nhập thông tin nhân viên mới.
+##### 	Chức năng lưu: Khi người dùng đã nhập hết các dữ liệu về thông tin nhân viên gồm: mã nhân viên, họ và tên, ngày sinh, giới tính, số điện thoại, địa chỉ, tài khoản, email, chức vụ thì click vào button “Lưu” nếu thành công thì sẽ xuất hiện hộp thoại thông báo “Đã thêm nhân viên mới thành công” và thông tin sau khi thêm sẽ được hệ thống cập nhật hiển thị lên tableNV.
+##### 	Chức năng sửa: Thao tác này cho phép người dùng sửa lại dữ liệu nhân viên đã tồn tại (ví dụ: sửa thông tin họ tên nhân viên, giới tính, …).
+##### 	Chức năng xóa: Khi cần xóa thông tin về một nhân viên, người dùng sẽ chọn nhân 
+        viên cần xóa và click vào button “Xóa”.
+##### 	Chức năng tìm kiếm: Chức năng cho phép người dùng hệ thống truy xuất thông tin của nhân viên thông qua: mã nhân viên, họ và tên, ngày sinh, giới tính, số điện thoại, địa chỉ, tài khoản, email, chức vụ. Dữ liệu trả về có thể là 1 hoặc nhiều trường dữ liệu tùy thuộc vào phương thức tìm kiếm.
+##### 	Chức năng in danh sách: Khi nhấn vào button “In Danh Sach” thì chương trình sẽ in ra danh sách toàn bộ nhân viên của cửa hàng. Tại đây có thể xuất ra file PDF để lưu về máy tính.
 
 
