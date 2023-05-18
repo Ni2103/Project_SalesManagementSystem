@@ -233,3 +233,149 @@
 ######		Chức năng tìm kiếm: Chức năng cho phép người dùng hệ thống truy xuất thông tin của loại sản phẩm thông qua: mã loại sản phẩm, tên loại sản phẩm. Dữ liệu trả về có thể là 1 hoặc nhiều trường dữ liệu tùy thuộc vào phương thức tìm kiếm.
 ######		Chức năng làm mới: Sau khi thực hiện thay đổi trên form nhấn button “Làm mới” để refresh lại dữ liệu trên bảng.
 
+## Màn hình quản lý nhà cung cấp
+#####	Form có chức năng quản lý thông tin của các nhà cung cấp.
+#####	Khi thực hiện các chức năng hiện có trên form đều có các thông báo xác nhận để các thao tác trên form được chính xác nhất.
+#####	Các thành phần trên form quản lý nhà cung cấp bao gồm: 
+		Thông tin nhà cung cấp: mã nhà cung cấp, tên nhà cung cấp, địa chỉ, email.
+		JTable (tableDSNCC) để load dữ liệu từ CSDL lên form.
+		Các chức năng: thêm, lưu, sửa, xóa, tìm kiếm, làm mới.
+######		Chức năng thêm: Cho phép xóa trắng hết dữ liệu để nhập thông tin nhà cung cấp mới.
+######		Chức năng lưu: Khi người dùng đã nhập hết các dữ liệu về thông tin nhà cung cấp gồm: mã nhà cung cấp, tên nhà cung cấp, địa chỉ, email thì click vào button “Lưu” nếu thành công thì sẽ xuất hiện hộp thoại thông báo “Đã thêm NCC mới thành công” và thông tin sau khi thêm sẽ được hệ thống cập nhật hiển thị lên tableDSNCC.
+######		Chức năng sửa: Thao tác này cho phép người dùng sửa lại dữ liệu nhà cung cấp đã tồn tại (ví dụ: sửa thông tin tên nhà cung cấp, …).
+######		Chức năng xóa: Khi cần xóa thông tin về một nhà cung cấp, người dùng sẽ chọn nhà cung cấp cần xóa và click vào button “Xóa”.
+######		Chức năng tìm kiếm: Chức năng cho phép người dùng hệ thống truy xuất thông tin của nhà cung cấp thông qua: mã nhà cung cấp, tên nhà cung cấp, địa chỉ, email. Dữ liệu trả về có thể là 1 hoặc nhiều trường dữ liệu tùy thuộc vào phương thức tìm kiếm.
+######		Chức năng làm mới: Sau khi thực hiện thay đổi trên form nhấn button “Làm mới” để refresh lại dữ liệu trên bảng.
+## Màn hình quản lý khách hàng
+#####	Form có chức năng quản lý thông tin của khách hàng.
+#####	Khi thực hiện các chức năng hiện có trên form đều có các thông báo xác nhận để các thao tác trên form được chính xác nhất.
+#####	Các thành phần trên form quản lý khách hàng bao gồm: 
+		Thông tin khách hàng: mã khách hàng, tên khách hàng, họ khách hàng, địa chỉ, điện thoại.
+		JTable (tableqlKH) để load dữ liệu từ CSDL lên form.
+		Các chức năng: thêm, lưu, sửa, xóa, tìm kiếm, làm mới.
+######		Chức năng thêm: Cho phép xóa trắng hết dữ liệu để nhập thông tin khách hàng mới.
+######		Chức năng lưu: Khi người dùng đã nhập hết các dữ liệu về thông tin khách hàng gồm: mã khách hàng, tên khách hàng, họ khách hàng, địa chỉ, điện thoại thì click vào button “Lưu” nếu thành công thì sẽ xuất hiện hộp thoại thông báo “Đã thêm KH mới thành công” và thông tin sau khi thêm sẽ được hệ thống cập nhật hiển thị lên tableqlKH.
+######		Chức năng sửa: Thao tác này cho phép người dùng sửa lại dữ liệu khách hàng đã tồn tại (ví dụ: sửa thông tin họ khách hàng, …).
+######		Chức năng xóa: Khi cần xóa thông tin về một khách hàng, người dùng sẽ chọn khách hàng cần xóa và click vào button “Xóa”.
+######		Chức năng tìm kiếm: Chức năng cho phép người dùng hệ thống truy xuất thông tin của khách hàng thông qua: mã khách hàng, tên khách hàng, họ khách hàng, địa chỉ, điện thoại. Dữ liệu trả về có thể là 1 hoặc nhiều trường dữ liệu tùy thuộc vào phương thức tìm kiếm.
+######		Chức năng làm mới: Sau khi thực hiện thay đổi trên form nhấn button “Làm mới” để refresh lại dữ liệu trên bảng.
+
+## Màn hình quản lý tài khoản
+
+#####	Form có chức năng quản lý thông tin của các tài khoản dùng để đăng nhập vào hệ thống.
+#####	Các thành phần trên form quản lý tài khoản bao gồm: 
+		Thông tin tài khoản: mã ID, usename, password.
+		JTable (tableDSTaiKhoan) để load dữ liệu từ CSDL lên form.
+		Các chức năng: thêm, lưu, sửa, xóa, tìm kiếm, làm mới.
+######		Chức năng thêm: Cho phép xóa trắng hết dữ liệu để nhập thông tin đăng kí tài khoản mới.
+######		Chức năng lưu: Khi người dùng đã nhập hết các dữ liệu về tài khoản gồm: mã ID, usename, password thì click vào button “Lưu” nếu thành công thì sẽ xuất hiện hộp thoại thông báo “Đã thêm TK mới thành công” và thông tin sau khi thêm sẽ được hệ thống cập nhật hiển thị lên tableDSTaiKhoan.
+######		Chức năng sửa: Thao tác này cho phép người dùng sửa lại dữ liệu tài khoản đã tồn tại (ví dụ: sửa usename, …).
+######		Chức năng xóa: Khi cần xóa thông tin về một tài khoản, người dùng sẽ chọn tài khoản cần xóa và click vào button “Xóa”.
+######		Chức năng tìm kiếm: Chức năng cho phép người dùng hệ thống truy xuất thông tin của tài khoản thông qua: mã ID, usename, password. Dữ liệu trả về có thể là 1 hoặc nhiều trường dữ liệu tùy thuộc vào phương thức tìm kiếm.
+######		Chức năng làm mới: Sau khi thực hiện thay đổi trên form nhấn button “Làm mới” để refresh lại dữ liệu trên bảng.
+
+## Màn hình quản lý kho
+![image](https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/3eaec28c-9db7-4016-8f3f-5da0e2151171)
+
+#####	Form có chức năng quản lý thông tin kho của cửa hàng.
+#####	Khi thực hiện các chức năng hiện có trên form đều có các thông báo xác nhận để các thao tác trên form được chính xác nhất.
+#####	Các thành phần trên form quản lý kho bao gồm: 
+		Thông tin kho: mã kho, tên kho, địa chỉ.
+		JTable (tableDSKho) để load dữ liệu từ CSDL lên form.
+		Các chức năng: thêm, lưu, sửa, xóa, tìm kiếm, làm mới, in ra danh sách kho.
+######		Chức năng thêm: Cho phép xóa trắng hết dữ liệu để nhập thông tin kho mới.
+######		Chức năng lưu: Khi người dùng đã nhập hết các dữ liệu về kho gồm: mã kho, tên kho, địa chỉ thì click vào button “Lưu” nếu thành công thì sẽ xuất hiện hộp thoại thông báo “Đã thêm kho mới thành công” và thông tin sau khi thêm sẽ được hệ thống cập nhật hiển thị lên tableDSKho.
+######		Chức năng sửa: Thao tác này cho phép người dùng sửa lại dữ liệu tài khoản đã tồn tại (ví dụ: sửa địa chỉ, …).
+######		Chức năng sửa: Thao tác này cho phép người dùng sửa lại dữ liệu tài khoản đã tồn tại (ví dụ: sửa địa chỉ, …).
+######		Chức năng tìm kiếm: Chức năng cho phép người dùng hệ thống truy xuất thông tin của kho thông qua: mã kho, tên kho, địa chỉ. Dữ liệu trả về có thể là 1 hoặc nhiều trường dữ liệu tùy thuộc vào phương thức tìm kiếm.
+######		Chức năng làm mới: Sau khi thực hiện thay đổi trên form nhấn button “Làm mới” để refresh lại dữ liệu trên bảng.
+######		Chức năng in danh sách kho: Khi nhấn vào button “Print” thì chương trình sẽ in ra thông tin của kho được chọn. Tại đây có thể xuất ra file PDF để lưu về máy tính.
+
+## Màn hình quản lý phiếu nhập kho
+
+#####	Form có chức năng quản lý thông tin phiếu nhập kho của cửa hàng.
+#####	Khi thực hiện các chức năng hiện có trên form đều có các thông báo xác nhận để các thao tác trên form được chính xác nhất.
+#####	Các thành phần trên form quản lý phiếu nhập bao gồm: 
+		Thông tin phiếu nhập: mã nhập kho, ngày nhập, mã nhân viên.
+		JTable (tablePNK) để load dữ liệu từ CSDL lên form.
+		Các chức năng: thêm, lưu, sửa, xóa, tìm kiếm.
+######		Chức năng thêm: Cho phép xóa trắng hết dữ liệu để nhập phiếu nhập kho.
+######		Chức năng lưu: Khi người dùng đã nhập hết các dữ liệu về phiếu nhập kho gồm: mã nhập kho, ngày nhập, mã nhân viên thì click vào button “Lưu” nếu thành công thì sẽ xuất hiện hộp thoại thông báo “Đã thêm PNK mới thành công” và thông tin sau khi thêm sẽ được hệ thống cập nhật hiển thị lên tablePNK.
+######		Chức năng sửa: Thao tác này cho phép người dùng sửa lại dữ liệu phiếu nhập kho đã tồn tại (ví dụ: sửa ngày nhập kho, …).
+######		Chức năng xóa: Khi cần xóa thông tin phiếu nhập kho, người dùng sẽ chọn phiếu nhập kho cần xóa và click vào button “Xóa”.
+######		Chức năng tìm kiếm: Chức năng cho phép người dùng hệ thống truy xuất thông tin của phiếu nhập kho thông qua: mã nhập kho, ngày nhập, mã nhân viên. Dữ liệu trả về có thể là 1 hoặc nhiều trường dữ liệu tùy thuộc vào phương thức tìm kiếm.
+
+## Màn hình quản lý chi tiết phiếu nhập kho
+#####	Form có chức năng quản lý thông tin chi tiết của phiếu nhập kho.
+#####	Khi thực hiện các chức năng hiện có trên form đều có các thông báo xác nhận để các thao tác trên form được chính xác nhất.
+#####	Các thành phần trên form quản lý chi tiết phiếu nhập kho bao gồm: 
+		Thông tin chi tiết phiếu nhập: mã nhập kho, mã sản phẩm, số lượng nhập, đơn giá nhập.
+		JTable (tableCTPNK) để load dữ liệu từ CSDL lên form.
+		Các chức năng: thêm, lưu, sửa, xóa, tìm kiếm, làm mới.
+######		Chức năng thêm: Cho phép xóa trắng hết dữ liệu để nhập thông tin chi tiết phiếu nhập mới.
+######		Chức năng lưu: Khi người dùng đã nhập hết các dữ liệu về chi tiết phiếu nhập kho gồm: mã nhập kho, mã sản phẩm, số lượng nhập, đơn giá nhập thì click vào button “Lưu” nếu thành công thì sẽ xuất hiện hộp thoại thông báo “Đã thêm CTPNK mới thành công” và thông tin sau khi thêm sẽ được hệ thống cập nhật hiển thị lên tableCTPNK.
+######		Chức năng sửa: Thao tác này cho phép người dùng sửa lại dữ liệu chi tiết phiếu nhập kho đã tồn tại (ví dụ: số lượng nhập kho, …).
+######		Chức năng xóa: Khi cần xóa thông tin chi tiết phiếu nhập kho, người dùng sẽ chọn chi tiết phiếu nhập kho cần xóa và click vào button “Xóa”.
+######		Chức năng tìm kiếm: Chức năng cho phép người dùng hệ thống truy xuất thông tin của chi tiết phiếu nhập kho thông qua: mã nhập kho, mã sản phẩm, số lượng nhập, đơn giá nhập. Dữ liệu trả về có thể là 1 hoặc nhiều trường dữ liệu tùy thuộc vào phương thức tìm kiếm.
+######		Chức năng làm mới: Sau khi thực hiện thay đổi trên form nhấn button “Làm mới” để refresh lại dữ liệu trên bảng.
+## Màn hình quản lý phiếu xuất kho
+#####	Form có chức năng quản lý thông tin phiếu xuất kho.
+#####	Khi thực hiện các chức năng hiện có trên form đều có các thông báo xác nhận để các thao tác trên form được chính xác nhất.
+#####	Các thành phần trên form quản lý phiếu xuất kho bao gồm: 
+		Thông tin phiếu xuất kho: mã xuất kho, ngày xuất, mã nhân viên.
+		JTable (tablePXK) để load dữ liệu từ CSDL lên form.
+		Các chức năng: thêm, lưu, sửa, xóa, tìm kiếm.
+######		Chức năng thêm: Cho phép xóa trắng hết dữ liệu để nhập thông tin phiếu xuất kho mới.
+######		Chức năng lưu: Khi người dùng đã nhập hết các dữ liệu về phiếu xuất kho gồm: mã xuất kho, ngày xuất, mã nhân viên thì click vào button “Lưu” nếu thành công thì sẽ xuất hiện hộp thoại thông báo “Thêm thành công” và thông tin sau khi thêm sẽ được hệ thống cập nhật hiển thị lên tablePXK.
+######		Chức năng sửa: Thao tác này cho phép người dùng sửa lại dữ liệu phiếu xuất kho đã tồn tại (ví dụ: sửa ngày xuất kho, …).
+######		Chức năng xóa: Khi cần xóa thông tin phiếu xuất kho, người dùng sẽ chọn phiếu xuất kho cần xóa và click vào button “Xóa”.
+######		Chức năng tìm kiếm: Chức năng cho phép người dùng hệ thống truy xuất thông tin của phiếu xuất kho thông qua: mã xuất kho, ngày xuất, mã nhân viên. Dữ liệu trả về có thể là 1 hoặc nhiều trường dữ liệu tùy thuộc vào phương thức tìm kiếm.
+
+## Màn hình quản lý chi tiết phiếu xuất kho 
+#####	Form có chức năng quản lý thông tin chi tiết của phiếu xuất kho.
+#####	Khi thực hiện các chức năng hiện có trên form đều có các thông báo xác nhận để các thao tác trên form được chính xác nhất.
+#####	Các thành phần trên form quản lý chi tiết phiếu xuất kho bao gồm: 
+		Thông tin chi tiết phiếu xuất: mã xuất kho, mã sản phẩm, số lượng xuất, đơn giá xuất.
+		JTable (tableCTPXK) để load dữ liệu từ CSDL lên form.
+		Các chức năng: thêm, lưu, sửa, xóa, tìm kiếm, làm mới.
+######		Chức năng thêm: Cho phép xóa trắng hết dữ liệu để nhập thông tin chi tiết phiếu xuất kho.
+######		Chức năng lưu: Khi người dùng đã nhập hết các dữ liệu về chi tiết phiếu xuất kho gồm: mã xuất kho, mã sản phẩm, số lượng xuất, đơn giá xuất thì click vào button “Lưu” nếu thành công thì sẽ xuất hiện hộp thoại thông báo “Đã thêm CTPXK mới thành công” và thông tin sau khi thêm sẽ được hệ thống cập nhật hiển thị lên tableCTPXK.
+######		Chức năng sửa: Thao tác này cho phép người dùng sửa lại dữ liệu chi tiết phiếu xuất kho đã tồn tại (ví dụ: số lượng xuất kho, …).
+######		Chức năng xóa: Khi cần xóa thông tin chi tiết phiếu xuất kho, người dùng sẽ chọn chi tiết phiếu xuất kho cần xóa và click vào button “Xóa”.
+######		Chức năng tìm kiếm: Chức năng cho phép người dùng hệ thống truy xuất thông tin của chi tiết phiếu xuất kho thông qua: mã xuất kho, mã sản phẩm, số lượng xuất, đơn giá xuất. Dữ liệu trả về có thể là 1 hoặc nhiều trường dữ liệu tùy thuộc vào phương thức tìm kiếm.
+######		Chức năng làm mới: Sau khi thực hiện thay đổi trên form nhấn button “Làm mới” để refresh lại dữ liệu trên bảng.
+
+## Màn hình quản lý hoá đơn
+#####	Form có chức năng quản lý thông tin của hóa đơn.
+#####	Khi thực hiện các chức năng hiện có trên form đều có các thông báo xác nhận để các thao tác trên form được chính xác nhất.
+#####	Các thành phần trên form quản lý hóa đơn bao gồm: 
+		Thông tin hóa đơn: mã hóa đơn, ngày lập hóa đơn, phương thức thanh toán, mã nhân viên, mã khách hàng.
+		JTable (tableHD) để load dữ liệu từ CSDL lên form.
+		Các chức năng: thêm, lưu, sửa, xóa, tìm kiếm.
+######		Chức năng thêm: Cho phép xóa trắng hết dữ liệu để nhập thông tin hóa đơn mới.
+######		Chức năng lưu: Khi người dùng đã nhập hết các dữ liệu về hóa đơn gồm mã hóa đơn, ngày lập hóa đơn, phương thức thanh toán, mã nhân viên, mã khách hàng thì click vào button “Lưu” nếu thành công thì sẽ xuất hiện hộp thoại thông báo “Đã thêm hóa đơn mới thành công” và thông tin sau khi thêm sẽ được hệ thống cập nhật hiển thị lên tableHD.
+######		Chức năng sửa: Thao tác này cho phép người dùng sửa lại dữ liệu hóa đơn đã tồn tại (ví dụ: phương thức thanh toán, …).
+######		Chức năng xóa: Khi cần xóa thông tin hóa đơn, người dùng sẽ chọn hóa đơn cần xóa và click vào button “Xóa”.
+######		Chức năng tìm kiếm: Chức năng cho phép người dùng hệ thống truy xuất thông tin của hóa đơn thông qua: mã hóa đơn, ngày lập hóa đơn, phương thức thanh toán, mã nhân viên, mã khách hàng. Dữ liệu trả về có thể là 1 hoặc nhiều trường dữ liệu tùy thuộc vào phương thức tìm kiếm.
+
+## Màn hình quản lý chi tiết hoá đơn
+
+#####	Form có chức năng quản lý thông tin chi tiết của hóa đơn.
+#####	Khi thực hiện các chức năng hiện có trên form đều có các thông báo xác nhận để các thao tác trên form được chính xác nhất.
+#####	Các thành phần trên form quản lý chi tiết hóa đơn bao gồm: 
+		Thông tin chi tiết hóa đơn: mã hóa đơn, mã sản phẩm, số lượng bán, đơn giá bán.
+		JTable (tableCTHD) để load dữ liệu từ CSDL lên form.
+		Các chức năng: thêm, lưu, sửa, xóa, tìm kiếm, làm mới, in danh sách.
+#####		Chức năng thêm: Cho phép xóa trắng hết dữ liệu để nhập thông tin chi tiết hóa đơn mới.
+#####		Chức năng lưu: Khi người dùng đã nhập hết các dữ liệu về chi tiết hóa đơn gồm: mã hóa đơn, mã sản phẩm, số lượng bán, đơn giá bán thì click vào button “Lưu” nếu thành công thì sẽ xuất hiện hộp thoại thông báo “Đã thêm CTHD mới thành công” và thông tin sau khi thêm sẽ được hệ thống cập nhật hiển thị lên tableCTHD.
+#####		Chức năng sửa: Thao tác này cho phép người dùng sửa lại dữ liệu chi tiết hóa đơn đã tồn tại (ví dụ: số lượng bán, …).
+#####		Chức năng xóa: Khi cần xóa thông tin chi tiết hóa đơn, người dùng sẽ chọn chi tiết hóa đơn cần xóa và click vào button “Xóa”.
+#####		Chức năng tìm kiếm: Chức năng cho phép người dùng hệ thống truy xuất thông tin của chi tiết hóa đơn thông qua: mã hóa đơn, mã sản phẩm, số lượng bán, đơn giá bán. Dữ liệu trả về có thể là 1 hoặc nhiều trường dữ liệu tùy thuộc vào phương thức tìm kiếm.
+#####		Chức năng làm mới: Sau khi thực hiện thay đổi trên form nhấn button “Làm mới” để refresh lại dữ liệu trên bảng.
+#####		Chức năng in hóa đơn: Khi nhấn vào button “In Hoa Don” thì chương trình sẽ in ra thông tin hóa đơn được chọn. Tại đây có thể xuất ra file PDF để lưu về máy tính.
+## Màn hình thống kê
+#####		Form có chức năng thống kê doanh thu của cửa hàng.
+![image](https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/5a7fea4f-405e-4ceb-b851-0549fd1a3013)
+
+
+
