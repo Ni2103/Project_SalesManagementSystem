@@ -69,19 +69,24 @@
 <img width="248" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/816b9165-c407-4d5f-92d4-6bbbe28cdc52">
 
 ##  Mô tả các ràng buộc 
-### -	Ràng buộc Check ở giới tính nhân viên để phân biệt giới tính với kiểu dữ liệu BIT thì tương ứng giới tính nam là 0 và nữ là 1.
-### -	Ràng buộc Check ở chức vụ nhân viên để phân biệt chức vụ của mỗi nhân viên cụ thể “QLT” tương ứng với “Quản lý trưởng”, “NV” tương ứng với “Nhân viên bán hàng”, “KT” tương ứng với “Kế toán”, “TK” tương ứng với “Thủ kho”.
-### -	Ràng buộc Default ở địa chỉ của Nhân viên đối với thông tin Nhân viên khi nhập mới chưa biết địa chỉ sẽ tự động mặc định là “Chưa có”.
-### -	Ràng buộc Default ở địa chỉ của Khách hàng đối với thông tin Khách hàng khi nhập mới chưa biết địa chỉ sẽ tự động mặc định là “Chưa có”.
-### -	Ràng buộc Default ở Mức khuyến mãi của Sản phẩm mặc định là 0, khi chương trình khuyến mãi được áp dụng vào 1 ngày cụ thể thì giá trị mức khuyến mãi sẽ được thay đổi bởi các thủ tục đưa vào.
-### -	Ràng buộc Check ở Phương thức thanh toán của Hóa Đơn để kiểm tra hình thức thanh toán của Khách Hàng, cụ thể “TM” tương ứng với “Tiền mặt”, “CK” tương ưng với “Chuyển khoản”
-## Mô tả các ràng buộc toàn vẹn
-### 1. Mỗi nhân viên đều có một mã nhân viên để phân biệt
-####  Bối cảnh: NHÂN VIÊN  
-####  Điều kiện: ∀ n1, n2 thuộc NHANVIEN  
-####  Nếu n1#n2 thì n1.[MANV] # n2.[MANV]  
-####  Bảng tầm ảnh hưởng 
+#### -	Ràng buộc Check ở giới tính nhân viên để phân biệt giới tính với kiểu dữ liệu BIT thì tương ứng giới tính nam là 0 và nữ là 1.
+#### -	Ràng buộc Check ở chức vụ nhân viên để phân biệt chức vụ của mỗi nhân viên cụ thể “QLT” tương ứng với “Quản lý trưởng”, “NV” tương ứng với “Nhân viên bán hàng”, “KT” tương ứng với “Kế toán”, “TK” tương ứng với “Thủ kho”.
+#### -	Ràng buộc Default ở địa chỉ của Nhân viên đối với thông tin Nhân viên khi nhập mới chưa biết địa chỉ sẽ tự động mặc định là “Chưa có”.
+#### -	Ràng buộc Default ở địa chỉ của Khách hàng đối với thông tin Khách hàng khi nhập mới chưa biết địa chỉ sẽ tự động mặc định là “Chưa có”.
+#### -	Ràng buộc Default ở Mức khuyến mãi của Sản phẩm mặc định là 0, khi chương trình khuyến mãi được áp dụng vào 1 ngày cụ thể thì giá trị mức khuyến mãi sẽ được thay đổi bởi các thủ tục đưa vào.
+#### -	Ràng buộc Check ở Phương thức thanh toán của Hóa Đơn để kiểm tra hình thức thanh toán của Khách Hàng, cụ thể “TM” tương ứng với “Tiền mặt”, “CK” tương ưng với “Chuyển khoản”
+### Mô tả các ràng buộc toàn vẹn
+#### 1. Mỗi nhân viên đều có một mã nhân viên để phân biệt
+#####  Bối cảnh: NHÂN VIÊN  
+#####  Điều kiện: ∀ n1, n2 thuộc NHANVIEN  
+#####  Nếu n1#n2 thì n1.[MANV] # n2.[MANV]  
+#####  Bảng tầm ảnh hưởng 
 <img width="239" alt="image" src="https://github.com/Ni2103/Project_SalesManagementSystem/assets/89075130/b7300dd3-82e0-469d-8daa-bf9fc32e98e9">
+####  2. Mỗi hóa đơn đều có một mã hóa đơn để phân biệt 
+##### Bối cảnh: HOADON
+##### Điều kiện: ∀ h1, h2 thuộc HOADON
+##### Nếu h1#h2 thì h1.[MAHD] # h2.[MAHD]  
+##### Bảng tầm ảnh hưởng 
 
 
 
