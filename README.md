@@ -196,12 +196,11 @@
         	Thông tin nhân viên: mã nhân viên, họ và tên, ngày sinh, giới tính, số điện thoại, địa chỉ, tài khoản, email, chức vụ.
               +	JTable (tableNV) để load dữ liệu từ CSDL lên form.
               +	Các chức năng: thêm, lưu, sửa, xóa, tìm kiếm, in danh sách 
-##### 	Chức năng thêm: Cho phép xóa trắng hết dữ liệu để nhập thông tin nhân viên mới.
-##### 	Chức năng lưu: Khi người dùng đã nhập hết các dữ liệu về thông tin nhân viên gồm: mã nhân viên, họ và tên, ngày sinh, giới tính, số điện thoại, địa chỉ, tài khoản, email, chức vụ thì click vào button “Lưu” nếu thành công thì sẽ xuất hiện hộp thoại thông báo “Đã thêm nhân viên mới thành công” và thông tin sau khi thêm sẽ được hệ thống cập nhật hiển thị lên tableNV.
-##### 	Chức năng sửa: Thao tác này cho phép người dùng sửa lại dữ liệu nhân viên đã tồn tại (ví dụ: sửa thông tin họ tên nhân viên, giới tính, …).
-##### 	Chức năng xóa: Khi cần xóa thông tin về một nhân viên, người dùng sẽ chọn nhân 
-        viên cần xóa và click vào button “Xóa”.
-##### 	Chức năng tìm kiếm: Chức năng cho phép người dùng hệ thống truy xuất thông tin của nhân viên thông qua: mã nhân viên, họ và tên, ngày sinh, giới tính, số điện thoại, địa chỉ, tài khoản, email, chức vụ. Dữ liệu trả về có thể là 1 hoặc nhiều trường dữ liệu tùy thuộc vào phương thức tìm kiếm.
-##### 	Chức năng in danh sách: Khi nhấn vào button “In Danh Sach” thì chương trình sẽ in ra danh sách toàn bộ nhân viên của cửa hàng. Tại đây có thể xuất ra file PDF để lưu về máy tính.
+###### 	Chức năng thêm: Cho phép xóa trắng hết dữ liệu để nhập thông tin nhân viên mới.
+###### 	Chức năng lưu: Khi người dùng đã nhập hết các dữ liệu về thông tin nhân viên gồm: mã nhân viên, họ và tên, ngày sinh, giới tính, số điện thoại, địa chỉ, tài khoản, email, chức vụ thì click vào button “Lưu” nếu thành công thì sẽ xuất hiện hộp thoại thông báo “Đã thêm nhân viên mới thành công” và thông tin sau khi thêm sẽ được hệ thống cập nhật hiển thị lên tableNV.
+###### 	Chức năng sửa: Thao tác này cho phép người dùng sửa lại dữ liệu nhân viên đã tồn tại (ví dụ: sửa thông tin họ tên nhân viên, giới tính, …).
+###### 	Chức năng xóa: Khi cần xóa thông tin về một nhân viên, người dùng sẽ chọn nhân viên cần xóa và click vào button “Xóa”.
+###### 	Chức năng tìm kiếm: Chức năng cho phép người dùng hệ thống truy xuất thông tin của nhân viên thông qua: mã nhân viên, họ và tên, ngày sinh, giới tính, số điện thoại, địa chỉ, tài khoản, email, chức vụ. Dữ liệu trả về có thể là 1 hoặc nhiều trường dữ liệu tùy thuộc vào phương thức tìm kiếm.
+###### 	Chức năng in danh sách: Khi nhấn vào button “In Danh Sach” thì chương trình sẽ in ra danh sách toàn bộ nhân viên của cửa hàng. Tại đây có thể xuất ra file PDF để lưu về máy tính.
 
 
